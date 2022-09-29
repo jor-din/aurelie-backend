@@ -6,5 +6,6 @@ const router = Router()
 router.use(decodeUserFromToken)
 /* Protected Routes */
 router.get('/',productsCtrl.index)
+router.get('/slug/:slug', productsCtrl.productInfo)
 
 export { router }
