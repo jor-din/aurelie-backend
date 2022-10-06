@@ -1,6 +1,7 @@
 const data = {
     products: [
         {
+            _id: '1' ,
             name: 'Anastasia',
             slug: 'gold-hoops-anastasia',
             category: 'Earrings',
@@ -12,6 +13,7 @@ const data = {
             description: 'Gold Earrings'
         },
         {
+            _id: '2', 
             name: 'Daihana',
             slug: 'gold-hoops-daihana',
             category: 'Earrings',
@@ -23,6 +25,7 @@ const data = {
             description: 'Gold Earrings'
         },
         {
+            _id: '3', 
             name: 'Julia',
             slug: 'gold-hoops-julia',
             category: 'Earrings',
@@ -34,6 +37,7 @@ const data = {
             description: 'Gold Earrings'
         },
         {
+            _id: '4', 
             name: 'Mathilde',
             slug: 'gold-hoops-mathilde',
             category: 'Earrings',
@@ -45,6 +49,7 @@ const data = {
             description: 'Gold Earrings'
         },
         {
+            _id: '5', 
             name: 'Kateryna',
             slug: 'pearl-statement-camila',
             category: 'Earrings',
@@ -56,6 +61,7 @@ const data = {
             description: 'Pearl Statement'
         },
         {
+            _id: '6', 
             name: 'Leslie',
             slug: 'gold-bracelet-leslie',
             category: 'Bracelets',
@@ -67,6 +73,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '7', 
             name: 'Marie',
             slug: 'gold-bracelet-marie',
             category: 'Bracelets',
@@ -78,6 +85,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '8', 
             name: 'Sandi',
             slug: 'gold-bracelet-sandi',
             category: 'Bracelets',
@@ -89,6 +97,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '9', 
             name: 'Shelia',
             slug: 'gold-bracelet-Shelia',
             category: 'Bracelets',
@@ -100,6 +109,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '10', 
             name: 'Olivia',
             slug: 'gold-bracelet-olivia',
             category: 'Bracelets',
@@ -111,6 +121,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '11', 
             name: 'Robin',
             slug: 'gold-bracelet-robin',
             category: 'Bracelets',
@@ -122,6 +133,7 @@ const data = {
             description: 'Gold Bracelet'
         },
         {
+            _id: '12', 
             name: 'Eliza',
             slug: 'gold-bracelet-eliza',
             category: 'Necklaces',
@@ -133,6 +145,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '13', 
             name: 'Grace',
             slug: 'gold-bracelet-Grace',
             category: 'Necklaces',
@@ -144,6 +157,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '14', 
             name: 'Harper',
             slug: 'gold-bracelet-harper',
             category: 'Necklaces',
@@ -155,6 +169,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '15', 
             name: 'Imani',
             slug: 'gold-bracelet-imani',
             category: 'Necklaces',
@@ -166,6 +181,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '16', 
             name: 'Jasmin',
             slug: 'gold-bracelet-jasmin',
             category: 'Necklaces',
@@ -177,6 +193,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '17', 
             name: 'Venus',
             slug: 'gold-bracelet-venus',
             category: 'Necklaces',
@@ -188,6 +205,7 @@ const data = {
             description: 'Gold Necklace'
         },
         {
+            _id: '18', 
             name: 'Cassie',
             slug: 'gold-ring-cassie',
             category: 'Necklaces',
@@ -199,6 +217,7 @@ const data = {
             description: 'Gold Ring'
         },
         {
+            _id: '19', 
             name: 'Leilani',
             slug: 'gold-ring-leilani',
             category: 'Necklaces',
@@ -210,6 +229,7 @@ const data = {
             description: 'Gold Ring'
         },
         {
+            _id: '20', 
             name: 'Melanie',
             slug: 'gold-ring-melanie',
             category: 'Necklaces',
@@ -221,6 +241,7 @@ const data = {
             description: 'Gold Ring'
         },
         {
+            _id: '21', 
             name: 'Millie',
             slug: 'gold-ring-millie',
             category: 'Necklaces',
@@ -232,6 +253,7 @@ const data = {
             description: 'Gold Ring'
         },
         {
+            _id: '22', 
             name: 'Saint',
             slug: 'gold-ring-saint',
             category: 'Necklaces',
@@ -243,6 +265,7 @@ const data = {
             description: 'Gold Ring'
         },
         {
+            _id: '23', 
             name: 'Victoria',
             slug: 'gold-ring-victoria',
             category: 'Necklaces',
