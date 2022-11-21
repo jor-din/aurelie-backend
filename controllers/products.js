@@ -1,26 +1,34 @@
 import data from "../data.js";
+import Product from '../models/product.js'
 
 async function index(req, res) {
-  res.send(data.products);
+  const products = await Product.find()
+  res.send(products);
 }
 
 async function showProduct(req, res) {
-  const product = data.products.find((x) => x.slug === req.params.slug);
+  const product = await Product.findOne({ slug: req.params.slug });
   if (product) {
     res.send(product);
   } else {
-    res.status(404).send({ message: "Product Not Found" });
+    res.status(404).json({ err: 'Not found' })
   }
 }
 
 async function findProduct (req, res) {
-  const product = data.products.find((x) => x._id === req.params.id);
+  const product = await Product.findById(req.params.id);
   if (product) {
     res.send(product)
   }
   else {
-    res.status(404).send({ message: "Product Not Found" });
+    res.status(404).json({ err: 'Not found' })
   }
 }
 
-export { index, showProduct, findProduct };
+async function createdProduct (req, res) {
+  await Product.remove({})
+  const createdProducts = await Product.insertMany(data.products)
+  res.send({ createdProducts })
+}
+
+export { index, showProduct, findProduct, createdProduct };
