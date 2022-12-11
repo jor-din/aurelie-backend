@@ -1,5 +1,6 @@
 import data from "../data.js";
-import Product from '../models/product.js'
+import { Product } from '../models/product.js'
+import { User } from '../models/user.js'
 
 async function index(req, res) {
   const products = await Product.find()
@@ -28,7 +29,8 @@ async function findProduct (req, res) {
 async function createdProduct (req, res) {
   await Product.remove({})
   const createdProducts = await Product.insertMany(data.products)
-  res.send({ createdProducts })
+  const createdUsers = await User.insertMany(data.users)
+  res.send({ createdProducts, createdUsers })
 }
 
 export { index, showProduct, findProduct, createdProduct };
