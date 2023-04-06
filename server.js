@@ -8,6 +8,7 @@ import { router as authRouter } from './routes/auth.js'
 import { router as productsRouter } from './routes/products.js'
 import { router as seedsRouter } from './routes/seeds.js'  
 import { router as userRouter } from './routes/users.js'
+import { router as ordersRouter } from './routes/orders.js'
 
 import './config/database.js'
 
@@ -24,6 +25,7 @@ app.use('/api/auth', authRouter)
 app.use('/api/products', productsRouter)
 app.use('/api/seeds', seedsRouter)
 app.use('/api/users', userRouter)
+app.use('/api/orders', ordersRouter)
 
 app.use(function (req, res, next) {
   res.status(404).json({ err: 'Not found' })
